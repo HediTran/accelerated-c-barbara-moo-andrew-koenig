@@ -1,0 +1,10 @@
+page 307: In general...become part of the object usually should not be explicit.
+-> WHY? the constructor is Vec(size_type n, const T& val = T()) ->The construct argument determines the value of the Obj -> Shouldn't we write it without the word 'explicit'
+
+12-2: in eg_pointer_stringliteral
+12-3: in Str_class12
+12-4: in Str_class12
+12-5: Str& operator+=(const char *p) in Str_class12
+12-6: operator bool() in Str_class12
+12-7: typedef and begin(), end() in Str_class12
+12-8: getline() in Str_class12
