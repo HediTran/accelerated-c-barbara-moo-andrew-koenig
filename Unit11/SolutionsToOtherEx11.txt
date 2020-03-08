@@ -1,0 +1,9 @@
+11-1: We did not define a copy constructor, assignment operator, or destructor because the one the compiler synthesize for us is good enough. Built-in type like double is set to 0, class type like string is set to undefined. Classes like Vec need ... because they have pointers. If we don't define ... then when Obj is copied pointers would point to old Obj instead of new one. Moreover, Student_info class does not allocate memory.
+
+11-2: We need to write a default constructor for Student_info class because the compiler will not synthesize one for us since we have already wrote a constructor. 
+
+11-3: Members with class type like string n, vector<double> homework are assigned by calling the assignment operator. Members with built-in type like double midter, final are assigned by assigning their value directly.
+
+11-4: The synthesized Student_info destructor only destroys 2 members. Members with class type like string n, vector<double> homework are destroyed by calling the destructor. 
+
+11-6: Members function added to Vec_class11
