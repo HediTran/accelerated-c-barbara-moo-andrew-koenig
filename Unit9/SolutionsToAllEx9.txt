@@ -1,0 +1,11 @@
+9-1: FULL set Student_info, grade, median, main
+9-2: change function std::string name() const in class Student_info to std::string name() 
+-> required changes in bool compare function
+Change bool compare (const Student_info&, const Student_info&) to bool compare (Student_info&, Student_info&) 
+because function compare call function name(). If function compare operate on const Student_info Object -> it can't call nonconst name() function to operate on that Object
+(NOTE: Change compare and name function in Student_infov2.cpp, Student_infov2.h)
+9-3: trigger: try, catch: catch and e.what()
+9-4: main_Unit4_9_4 with v2 files
+9-5: FULL set (except median)
+9-6: FULL set (except median)
+9-7: FULL set
