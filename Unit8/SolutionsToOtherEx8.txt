@@ -1,0 +1,4 @@
+8-1: grading_schemes6_6
+8-6: back_inserter(x) -> x needs to have a push_back member function (such as the standard containers vector, deque, list)
+8-7: because one type might not be able to convert to the other type -> cannot compare
+8-8: begin + end might overflow the maximum value of the pointer type 
