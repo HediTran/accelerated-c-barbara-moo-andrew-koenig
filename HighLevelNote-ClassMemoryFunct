@@ -1,0 +1,4 @@
+Author controls what happens to an Object(Operations): Created - Copied - Assigned - Destroyed
+Memory Allocation Class: Allocate memory - Deallocate memory - Initialize elements - Destroyed elements
+Functions: return type, parameter (pass by value/reference) (const/non-const)
+
