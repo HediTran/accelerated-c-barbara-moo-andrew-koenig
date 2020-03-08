@@ -1,0 +1,1 @@
+6-4: Using back_inserter & inserter
